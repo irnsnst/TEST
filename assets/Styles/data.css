@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40vh;
+    background-image: url('/assets/pix/4.jpg');
+    background-size: cover;
+
+}
+
+
+.container {
+    width: 80%;
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.container p span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.container p:hover span {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* Style for password and confirm password */
+.container #password,
+.container #confirmPassword {
+    display: inline-block;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.container #password:hover,
+.container #confirmPassword:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
